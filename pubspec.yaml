@@ -1,0 +1,36 @@
+name: smart_student_companion
+description: "A modern, beginner-friendly Android companion app for university students built with Flutter and Material 3."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Persistent local key-value storage
+  shared_preferences: ^2.2.2
+  # SQLite database for structured data storage
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  # State Management
+  provider: ^6.1.2
+  # Date formatting
+  intl: ^0.19.0
+  # Data export (Practical 6 Advanced)
+  csv: ^5.0.2
+  pdf: ^3.10.4
+  printing: ^5.11.1
+  # Material design icons
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
